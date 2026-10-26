@@ -1,0 +1,92 @@
+{
+  "rows": 7,
+  "columns": {
+    "id": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique": 7,
+      "sample": [
+        "1",
+        "2",
+        "3"
+      ],
+      "min": 1.0,
+      "max": 7.0,
+      "mean": 4.0
+    },
+    "name": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique": 6,
+      "sample": [
+        "Alice Smith ",
+        "Bob Jones",
+        "Carol White"
+      ]
+    },
+    "email": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique": 6,
+      "sample": [
+        "alice@example.com",
+        "BOB@EXAMPLE.COM",
+        "carol@example.com"
+      ]
+    },
+    "age": {
+      "dtype": "float64",
+      "null_count": 1,
+      "null_pct": 14.3,
+      "unique": 5,
+      "sample": [
+        "29.0",
+        "35.0",
+        "35.0"
+      ],
+      "min": 29.0,
+      "max": 250.0,
+      "mean": 73.67
+    },
+    "signup_date": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique": 6,
+      "sample": [
+        "2024-01-15",
+        "2024-02-20",
+        "2024-03-05"
+      ]
+    },
+    "country": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique": 5,
+      "sample": [
+        "india",
+        "USA",
+        "india"
+      ]
+    },
+    "spend": {
+      "dtype": "float64",
+      "null_count": 2,
+      "null_pct": 28.6,
+      "unique": 4,
+      "sample": [
+        "120.5",
+        "89.99",
+        "89.99"
+      ],
+      "min": 45.0,
+      "max": 300.0,
+      "mean": 129.1
+    }
+  },
+  "duplicate_rows": 0
+}

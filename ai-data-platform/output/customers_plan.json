@@ -1,0 +1,85 @@
+[
+  {
+    "op": "drop_duplicates",
+    "column": null,
+    "params": {
+      "ignore_id": true
+    },
+    "reason": "Remove duplicate records (ignoring id columns)"
+  },
+  {
+    "op": "strip_whitespace",
+    "column": "name",
+    "params": {},
+    "reason": "Trim stray spaces"
+  },
+  {
+    "op": "title_case",
+    "column": "name",
+    "params": {},
+    "reason": "Consistent casing"
+  },
+  {
+    "op": "strip_whitespace",
+    "column": "email",
+    "params": {},
+    "reason": "Trim stray spaces"
+  },
+  {
+    "op": "lowercase",
+    "column": "email",
+    "params": {},
+    "reason": "Normalise emails"
+  },
+  {
+    "op": "validate_email",
+    "column": "email",
+    "params": {},
+    "reason": "Null out invalid emails"
+  },
+  {
+    "op": "fill_null_median",
+    "column": "age",
+    "params": {},
+    "reason": "Impute missing numbers"
+  },
+  {
+    "op": "clip_range",
+    "column": "age",
+    "params": {
+      "min": 0,
+      "max": 120
+    },
+    "reason": "Plausible ages"
+  },
+  {
+    "op": "strip_whitespace",
+    "column": "signup_date",
+    "params": {},
+    "reason": "Trim stray spaces"
+  },
+  {
+    "op": "parse_date",
+    "column": "signup_date",
+    "params": {},
+    "reason": "Standardise dates to ISO"
+  },
+  {
+    "op": "strip_whitespace",
+    "column": "country",
+    "params": {},
+    "reason": "Trim stray spaces"
+  },
+  {
+    "op": "title_case",
+    "column": "country",
+    "params": {},
+    "reason": "Consistent casing"
+  },
+  {
+    "op": "fill_null_median",
+    "column": "spend",
+    "params": {},
+    "reason": "Impute missing numbers"
+  }
+]

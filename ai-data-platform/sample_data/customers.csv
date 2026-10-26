@@ -1,0 +1,8 @@
+id,name,email,age,signup_date,country,spend
+1,  Alice Smith ,alice@example.com,29,2024-01-15,india,120.50
+2,Bob Jones,BOB@EXAMPLE.COM,35,2024-02-20,USA,89.99
+3,Carol White,carol@example.com,,2024-03-05,india,
+4,Bob Jones,BOB@EXAMPLE.COM,35,2024-02-20,USA,89.99
+5,Dave Brown,not-an-email,41,15/04/2024,UK,300
+6,Eve Black,eve@example.com,250,2024-05-11,usa,45.00
+7,Frank Green,frank@example.com,52,2024-06-30,India,
